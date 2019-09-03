@@ -7,3 +7,7 @@ response:
   status: 200
   headers:
     Content-Type: application/json;charset=UTF-8
+  matchers:
+    - path: $
+      type: by_equality
+      value: 4
