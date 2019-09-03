@@ -1,0 +1,21 @@
+{
+  "id" : "450743d5-a26e-479c-959e-b3aa78ed6ca1",
+  "request" : {
+    "url" : "/warehouse/apples",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "application/json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"count\":4}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "450743d5-a26e-479c-959e-b3aa78ed6ca1"
+}
