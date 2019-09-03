@@ -7,9 +7,10 @@ response:
   status: 200
   headers:
     Content-Type: application/json;charset=UTF-8
-  body: 4
+  body:
+    count: 4
   matchers:
     body:
-     - path: $
+     - path: $.count
        type: by_equality
        value: 4
